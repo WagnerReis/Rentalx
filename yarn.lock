@@ -67,6 +67,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/csv-parse@^1.2.2":
+  "integrity" "sha512-k33tLtRKTQxf7hQfMlkWoS2TQYsnpk1ibZN+rzbuCkeBs8m23nHTeDTF1wb/e7/MSLdtgCzqu3oM1I101kd6yw=="
+  "resolved" "https://registry.npmjs.org/@types/csv-parse/-/csv-parse-1.2.2.tgz"
+  "version" "1.2.2"
+  dependencies:
+    "csv-parse" "*"
+
 "@types/express-serve-static-core@^4.17.18":
   "integrity" "sha512-P1BJAEAW3E2DJUlkgq4tOL3RyMunoWXqbSCygWo5ZIWTjUgN1YnaXWW4VWl/oc8vs/XoYibEGBKP0uZyF4AHig=="
   "resolved" "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.28.tgz"
@@ -487,6 +494,11 @@
     "path-key" "^3.1.0"
     "shebang-command" "^2.0.0"
     "which" "^2.0.1"
+
+"csv-parse@*", "csv-parse@^5.0.4":
+  "integrity" "sha512-5AIdl8l6n3iYQYxan5djB5eKDa+vBnhfWZtRpJTcrETWfVLYN0WSj3L9RwvgYt+psoO77juUr8TG8qpfGZifVQ=="
+  "resolved" "https://registry.npmjs.org/csv-parse/-/csv-parse-5.0.4.tgz"
+  "version" "5.0.4"
 
 "debug@^2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
