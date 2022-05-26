@@ -2,7 +2,7 @@ import { ISpecificationsRepository } from "../../repositories/ISpecificationsRep
 
 interface IRequest {
   name: string;
-  description;
+  description: string;
 }
 
 class CreateSpecificationUseCase {
